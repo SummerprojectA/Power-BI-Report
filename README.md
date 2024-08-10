@@ -39,8 +39,10 @@ There are 2 dimension tables and 1 fact table. The dimension tables are all join
 ![](ecommerce_sales_dashboard_image.png)
 
  **Sales Overview**
+ 
+ ![](sales_overview_image.png)
    
-   Total Sales Amount: The total revenue generated is 438K. This gives an overall view of the 
+  Total Sales Amount: The total revenue generated is 438K. This gives an overall view of the 
   financial health of the business.
   
   Total Profit: The total profit amounts to 37K. This indicates the margin over the total sales 
@@ -50,8 +52,11 @@ There are 2 dimension tables and 1 fact table. The dimension tables are all join
   
   Average Order Value (AOV): The sum of AOV (Average Order Value) is 121K, which helps in 
   understanding customer spending behavior on average per order.
+  
 
  **Sales by Region**
+
+ ![](amountbystate_image.png)
  
   Top Performing States:
   Maharashtra is the leading state with sales of 102K, followed by Madhya Pradesh with 87K, and 
@@ -59,27 +64,38 @@ There are 2 dimension tables and 1 fact table. The dimension tables are all join
   Delhi has the lowest sales among the listed states with 23K.
   This regional breakdown can help target marketing and inventory efforts more effectively in 
   higher-performing areas.
+  
 
  **Sales by Customer**
+
+ ![](amountbycustomer_image.png)
    
   Top Customers:
   Harivansh appears to be the highest spender, followed closely by Madhav, Madan Mohan,and 
   Shiva. Understanding high-value customers can assist in creating loyalty programs and 
   personalized.
+  
 
  **Product Category and Sub-Category Analysis**
+
+ ![](quantityby_category_image.png)
  
   Quantity by Category:
   Clothing leads the sales with 63%, followed by Electronics at 21%, and Furniture at 17%.
   This breakdown helps in identifying which product categories are driving the most sales.
+
+  ![](profit_subcategory_image.png)
 
   Profit by Sub-Category:
   Printers are the most profitable sub-category, followed by Bookcases, Sarees, Accessories, 
   and Tables.
   Focusing on these sub-categories could lead to higher profitability, while underperforming 
   sub-categories might require review or discontinuation.
+  
 
  **Payment Mode Analysis**
+
+ ![](quantity_paymentmode.png)
  
   Popular Payment Methods:
   COD (Cash on Delivery) is the most preferred payment method, accounting for 44% of 
@@ -87,8 +103,11 @@ There are 2 dimension tables and 1 fact table. The dimension tables are all join
   Other methods include Debit Card (13%), Credit Card (12%), and EMI (10%).
   This insight can help optimize the payment options offered and improve the checkout 
   experience.
+  
 
  **Monthly Profit Analysis**
+
+ 
  
   Profit Trends by Month:
   May and December are the most profitable months, with significant spikes in profit, while 
